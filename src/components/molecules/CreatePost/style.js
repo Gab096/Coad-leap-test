@@ -30,6 +30,14 @@ export const ContainerForm = styled.form`
     width: fit-content;
     align-self: flex-end;
   }
+  label {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+  }
 
   textarea {
     outline: none;

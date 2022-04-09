@@ -23,6 +23,7 @@ function CreatePost() {
     <ContainerForm onSubmit={handleSubmit}>
       <h2>What’s on your mind?</h2>
       <Input label="Title" placeholder="Hello World" onChange={e => setTitle(e.target.value)} />
+      <label>Content</label>
       <textarea
         rows={6}
         className="ContentContainer"

@@ -51,6 +51,7 @@ function HeaderCards({ title , username , postId, content}) {
           value={editTitle}
           onChange={e => setEditTitle(e.target.value)}
           />
+          <label>Content</label>
           <textarea
           rows={4}
           cols={12}
