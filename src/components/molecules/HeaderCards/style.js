@@ -3,7 +3,7 @@ import COLORS from "../../../common/colors";
 
 export const Container = styled.div`
   height: 80px;
-  padding: 0 40px;
+  padding: 0 20px;
 
   background: ${COLORS.BLACK};
   color: ${COLORS.WHITE};
